@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('https://cdn.lesnumeriques.com/optim/news/21/219228/25b0131c-tesla-roadster-le-0-a-100-km-h-en-moins-de-1-seconde-certes-mais-pourquoi-faire__1200_1200__267-202-1291-1226.jpg'); /* 이미지 파일의 경로를 적어주세요 */ 
+    background-size: cover;
+    background-position: center; /* 이미지를 가운데 정렬 */
+}
+
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.ercword{
+    color: #5fbaa7;
+}
+
+.currency{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.currency input{
+    text-align: right;
+    padding: 1px 2px;
+    border: none;
+    font-size: 30px;
+}
+
+.selectcurrency{
+    padding: 10px 20px 10px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #777;
+    background: #00000087;
+    color: #fff;
+
+}
+
+.swap-rate-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+
+
+.btn{
+    background-color: #5fbaa7;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
